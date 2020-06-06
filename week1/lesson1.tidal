@@ -1,0 +1,16 @@
+-- run `sclang superdirt_startup.scd` to start superdirt
+-- ctrl  + enter runs section
+-- shift + enter runs line
+
+-- stops one section
+d1 silence
+
+d2 silence
+
+d1 $ sound "bd sd"
+
+d2 $ sound "arpy"
+   # crush 3
+
+-- stops all sections
+hush
